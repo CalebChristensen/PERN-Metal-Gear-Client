@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+.App2 {
+  text-align: center;
+  
+}
+
+
+
+body {
+  background-image: url("http://www.benjaminstratton.com/wp-content/uploads/2015/08/Snake-Grayscale-Gun.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: Belleza;
+}
+
+
+.main {
+  background-color: white;
+  color: black;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.mainDiv {
+  margin: auto;
+  width: 95%;
+  padding: 5px;
+}
+
+
+
+ul {
+  list-style-type: 'none';
+}
+
+
+
+
+.header {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.header a {
+  color: white;
+}
+
+
+.auth-container { 
+  margin-top: 5em;
+  padding: 2em;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px #f0f0f0;
+  color: white;
+  background-image: url(https://media0.giphy.com/media/qNHYUqnBfIZyw/giphy.gif?cid=3640f6095bc0cf2a393075704de15419);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+​
+.login-col {
+  border-left: 1px solid black;
+}
+
+.welcomeBox {
+  
+  border: 1px solid black;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px black;
+  color: white;
+  background-color: black;
+}
+.editBox {
+  
+  border: 1px solid black;
+  border-radius: 0.4em;
+  box-shadow: 2px 4px 20px black;
+  color: white;
+  background-color: black;
+}
+
+
+.jumbo {
+  background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.jumboText {
+  float: left;
+  padding: 50px;
+  
+  
+}
+
+.box {
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+
+
+.boxmodal {
+  height:85vh;
+}
+
+.TheBossModal {
+  width: 100vw;
+}
+
+#mainmodal {
+  margin:auto;
+  width: 95%;
+}
+#mainmodal .modal-content {
+  width: 80vh;
+}
+
+.styles_modal__gNwvD {
+  min-width: 50%;
+}
