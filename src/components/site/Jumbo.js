@@ -5,7 +5,7 @@ export default class Jumbo extends Component {
         return (
             <div className="jumbo">
                 <div>
-                <Jumbotron className="jumbo">
+                <Jumbotron fluid className="jumbo">
      
                 </Jumbotron>;
                 </div>
