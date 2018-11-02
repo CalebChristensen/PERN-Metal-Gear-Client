@@ -95,7 +95,6 @@ ul {
   background-size: cover;
   height: 100vh;
   width: 100%;
-  
 }
 
 .jumboText {
@@ -130,4 +129,84 @@ ul {
 
 .styles_modal__gNwvD {
   min-width: 50%;
+}
+
+/*This example is taking a Card / Div and stretches it to its max
+for all responsive devices. You could eaisly add it as an image as well.
+This is just a template. Customize How you see fit. */
+
+/* Desktop PC & Responsive */
+.jumbo {
+  background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .jumbo {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .jumbo {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .jumbo {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  .jumbo {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .jumbo {
+    background-image: url("https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/metal-gear-background-6.jpg?resize=1920%2C1080");
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
 }
